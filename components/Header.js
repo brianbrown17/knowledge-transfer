@@ -1,5 +1,6 @@
 import Link from "next/link"
 import styles from '../styles/Header.module.css'
+import knowledgeTransferLogo from '/knowledge_transfer_logo.png'
 
 export default function Header(props) {
   return (
@@ -11,6 +12,7 @@ export default function Header(props) {
       >
         <Link href="/" passHref>
           <h1>{props.siteTitle}</h1>
+          <img src={knowledgeTransferLogo} />
         </Link>
       </nav>
     </header>

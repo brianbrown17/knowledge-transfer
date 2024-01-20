@@ -1,5 +1,5 @@
 {
-  "title":"Site Title",
-  "description":"Starer for a blog wtih Next.js.",
-  "repositoryUrl":"https://github.com/perkinsjr/nextjs-starter-boilerplate"
+  "title":"Knowledge Transfer Blog",
+  "description":"Welcome to Knowledge Transfer, a technology blog focused on building software for the real world.",
+  "repositoryUrl":"https://github.com/brianbrown17/knowledge-transfer"
 }
