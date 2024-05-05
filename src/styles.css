@@ -1,0 +1,49 @@
+/*styles.css */
+.markdown-container {
+    padding: 20px;
+}
+
+.markdown-container h1,
+.markdown-container h2,
+.markdown-container h3,
+.markdown-container h4,
+.markdown-container h5,
+.markdown-container h6 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.markdown-container p {
+    margin-bottom: 20px;
+}
+
+.markdown-container pre {
+    padding: 10px;
+    background-color: #f6f8fa;
+    border-radius: 4px;
+}
+
+.markdown-container code {
+    background-color: #f6f8fa;
+    padding: 2px 4px;
+    border-radius: 4px;
+}
+
+.markdown-container table {
+    width: 100%;
+    margin-bottom: 20px;
+    border-collapse: collapse;
+}
+
+.markdown-container table th,
+.markdown-container table td {
+    padding: 6px 13px;
+    border: 1px solid #dfe2e5;
+}
+
+.markdown-container blockquote {
+    margin: 0;
+    padding: 0 1em;
+    color: #6a737d;
+    border-left: 0.25em solid #dfe2e5;
+}

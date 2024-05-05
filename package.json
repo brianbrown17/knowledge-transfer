@@ -1,24 +1,42 @@
 {
-  "name": "nextjs-starter-blog",
-  "private": true,
+  "name": "fetch",
+  "version": "0.0.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
+  "private": true,
   "dependencies": {
-    "@next/font": "13.0.4",
-    "glob": "^8.0.3",
-    "gray-matter": "^4.0.3",
-    "next": "13.0.4",
-    "raw-loader": "^4.0.2",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-markdown": "^9.0.1"
+    "@angular/animations": "^17.3.5",
+    "@angular/common": "^17.3.5",
+    "@angular/compiler": "^17.3.5",
+    "@angular/core": "^17.3.5",
+    "@angular/forms": "^17.3.5",
+    "@angular/google-maps": "^17.3.5",
+    "@angular/platform-browser": "^17.3.5",
+    "@angular/platform-browser-dynamic": "^17.3.5",
+    "@angular/router": "^17.3.5",
+    "@types/google.maps": "^3.55.8",
+    "bootstrap": "^5.3.3",
+    "ngx-markdown": "^17.2.1",
+    "rxjs": "~7.8.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.14.4"
   },
   "devDependencies": {
-    "eslint": "8.27.0",
-    "eslint-config-next": "13.0.4"
+    "@angular-devkit/build-angular": "^17.3.5",
+    "@angular/cli": "~17.3.5",
+    "@angular/compiler-cli": "^17.3.5",
+    "@types/jasmine": "~4.3.0",
+    "jasmine-core": "~4.6.0",
+    "karma": "~6.4.0",
+    "karma-chrome-launcher": "~3.2.0",
+    "karma-coverage": "~2.2.0",
+    "karma-jasmine": "~5.1.0",
+    "karma-jasmine-html-reporter": "~2.1.0",
+    "typescript": "~5.4.5"
   }
 }

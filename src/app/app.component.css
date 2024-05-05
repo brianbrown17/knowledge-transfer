@@ -1,0 +1,32 @@
+/* Dark mode styles */
+body {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Example styles for specific elements */
+h1 {
+    color: #fff;
+}
+
+p {
+    color: #ccc;
+}
+
+/* Example styles for Bootstrap components */
+.navbar {
+    background-color: #222;
+}
+
+.content {
+    background-color: #444;
+    color: #fff;
+}
+
+/* Styling for the footer element */
+footer {
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
