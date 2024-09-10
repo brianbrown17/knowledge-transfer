@@ -47,3 +47,111 @@
     color: #6a737d;
     border-left: 0.25em solid #dfe2e5;
 }
+
+body {
+    background-color: #f6f8fa;
+    color: #24292e;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+h1 {
+    color: #24292e;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+p {
+    color: #586069;
+}
+
+.navbar {
+    background-color: #24292e;
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-content {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+.navbar span {
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.navbar-content h2 {
+    align-items: left;
+    padding: 25px;
+}
+
+.navbar-content img {
+    width: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.navbar .nav-links {
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar .nav-links a {
+    margin-right: 10px;
+}
+
+.navbar .nav-links a:last-child {
+    margin-right: 0;
+}
+
+.content {
+    background-color: #fff;
+    color: #24292e;
+    padding: 20px;
+}
+
+footer {
+    background-color: #f6f8fa;
+    color: #586069;
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    vertical-align: bottom;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.markdown-container {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.star-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 5px;
+}

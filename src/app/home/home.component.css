@@ -1,0 +1,53 @@
+.card-image img {
+    height: 20%;
+    align-self: flex-start;
+}
+.post-list {
+    display: flex;
+    width: 75%;
+    margin: 0 10%;
+}
+
+.about-section h2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 10%;
+    font-size: 48px;
+}
+
+.about-section h5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 10%;
+    font-size: 24px;
+}
+
+.post-heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2.5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 42px;
+}
+
+.card {
+    border: none;
+    box-shadow: none;
+    padding-bottom: 2.5%;
+}
+
+.card-content {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.post-list a:hover {
+    color: #324f82;
+    font-weight: bold;
+    transform: scale(1.02);
+    cursor: pointer;
+}

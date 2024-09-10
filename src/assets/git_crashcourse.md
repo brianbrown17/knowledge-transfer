@@ -121,7 +121,7 @@ $ git add hello-world.txt
 $ git commit -m "add: hello-world"
  1 file changed, 1 insertion(+)
  create mode 100644 hello-world.txt
- ```
+```
 
 It's important to use a descriptive commit message (here it follows the `-m` flag) to explain your changes.
 

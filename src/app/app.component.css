@@ -1,32 +1,39 @@
-/* Dark mode styles */
+/* GitHub styles */
 body {
-    background-color: #333;
-    color: #fff;
+    background-color: #f6f8fa;
+    color: #24292e;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
-/* Example styles for specific elements */
 h1 {
-    color: #fff;
+    color: #24292e;
+    font-size: 24px;
+    font-weight: 600;
 }
 
 p {
-    color: #ccc;
-}
-
-/* Example styles for Bootstrap components */
-.navbar {
-    background-color: #222;
+    color: #586069;
 }
 
 .content {
-    background-color: #444;
-    color: #fff;
+    background-color: #fff;
+    color: #24292e;
+    padding: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
-/* Styling for the footer element */
 footer {
-    background-color: #222;
-    color: #fff;
+    background-color: #f6f8fa;
+    color: #586069;
     padding: 20px;
     text-align: center;
+    font-size: 14px;
+}
+
+.markdown-container {
+    margin-right: 5%;
+    margin-left: 5%;
+    padding: 10px;
+    background-color: #fff;
 }
