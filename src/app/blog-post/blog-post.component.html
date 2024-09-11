@@ -1,5 +1,3 @@
 <div class="markdown-container">
-    <markdown>
-        {{ markdownContent }}
-    </markdown>
+    <div [innerHTML]="markdownContent | markdown | async"></div>
 </div>
